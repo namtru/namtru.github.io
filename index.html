@@ -5,43 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nam Truong's GitHub Page</title>
     <style>
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            background-color: #333;
+        /* Navigation bar styling */
+        nav {
+            background-color: black; /* Black bar */
             overflow: hidden;
+            padding: 10px 0;
         }
 
-        nav ul li {
-            display: inline;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: white;
+        nav a {
+            color: white; /* White text */
+            text-decoration: none; /* Remove underline */
             padding: 14px 20px;
             display: inline-block;
+            font-family: Arial, sans-serif;
         }
 
-        nav ul li a: hover {
-            background-color: #575757;
+        nav a: hover {
+            background-color: #575757; /* Highlight on hover */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        table th, table td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: left;
         }
     </style>
 </head>
 <body>
-    <!-- Navigation bar -->
+    <!-- Navigation Bar -->
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="ethics.html">Ethics</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
+        <a href="index.html">Home</a>
+        <a href="ethics.html">Ethics</a>
+        <a href="about.html">About</a>
     </nav>
 
     <!-- Main content -->
     <h1>My GitHub Page</h1>
-    <table border="1">
+    <table>
         <tr>
             <th>Name</th>
             <th>Introduction</th>
